@@ -1,0 +1,29 @@
+.selecao-perfil{
+    /* border: solid 2px red;    */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    gap: 20px;
+
+    padding: 20px;
+
+}
+
+.titulo-selecao{
+    font-size: 48px;
+    font-weight: 400;
+    /* border: solid 2px red; */
+    margin-bottom: 20px;
+}
+
+.container-cards{
+    /* border: dashed 2px greenyellow; */
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    margin-bottom: 60px;
+}

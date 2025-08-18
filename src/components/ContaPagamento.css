@@ -1,0 +1,115 @@
+.pai{
+    display: flex;
+    flex-direction: column;
+    color: black;    
+
+    
+    
+    /* border: solid 2px red; */
+    width: 750px;
+    height: 350px;
+
+    margin-left: 700px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    margin-top: -375px;
+    background-color: rgba(240, 248, 255, 0);
+    
+    
+}
+.move{
+display: flex;
+flex-direction: column;
+
+}
+.conta{
+        display: flex;
+        flex-direction: row;
+        font-size: 40px;
+        font-weight: 800;
+}
+.detalhe{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    
+}
+.pai2{
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(110, 110, 110);
+    border-radius: 10px;
+    width: 700px;
+    
+       
+}
+.assinatura{
+    display: flex;
+    flex-direction: row;
+    /* border: solid 2px green; */
+    width: 250px;
+    padding-left: 20px;
+    background: linear-gradient(to right, #2c2c92, #af44cf);
+
+    color: aliceblue;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 35px;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.cartao{
+    display: flex;
+    flex-direction: row ;
+    padding-left: 32px;
+    
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+    padding-left: 30px;
+/* border: solid 2px blue  ; */
+padding-bottom: 10px;
+padding-top: 20px;
+
+}
+.plano{
+display: flex;
+flex-direction: column;
+font-weight: 800;
+color: black;
+font-size: 25px;
+}
+.master{
+     background: linear-gradient(to right, #ff0000, #e1ff00);
+    padding-right: 10px;
+    font-size: 30px;
+    align-items: center;
+}
+.ponto{
+    font-size: 15px;
+    
+    padding-left: 5px;
+    /* border: solid 2px pink; */
+    align-items: center;
+}
+.fim{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    border-top: solid 1px rgb(147, 147, 147) ;
+    padding-top: 10px;
+    width: 600px;
+    margin-left: 25px;
+
+}
+
