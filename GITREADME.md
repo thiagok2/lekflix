@@ -12,6 +12,8 @@ GIT
 
   git commit -m 'mensagem do commit'
 
+  git add remote
+
 
 
 
