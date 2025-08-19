@@ -31,6 +31,22 @@ git remote add origin https://github.com/seu_usuario/nome_do_repositorio.git
 - **Exemplo**: `git remote add origin https://github.com/joaolorenco/lekflix.git`
 - Isso associa seu projeto local ao repositório no GitHub.
 
+## CRIANDO TOKEN E CONFIGURANDO URL DO REMOTE COM TOKEN
+  - No github, no ícone do seu usuário, abrir menu, opção SETTINGS
+  - No lateral da esquerdam Developer Settings
+  - Personal access tokens
+      Tokens (classic)
+  - Criar Token com permissões e COPIAR O token! IMPORTANTE COPIAR E GUARDAR
+  - Executar a instrução:
+
+  ```bash
+    git remote set-url origin https://<github-username>:<personal-access-token>@github.com/<github-username>/<github-repository-name>.git
+  ```
+
+  ```bash
+    git remote set-url origin https://joaoshopee5-sudo:SEU_TOKEN_AQUI@github.com/joaoshopee5-sudo/jotaflix.git
+  ```
+
 ### b) Adicionar arquivos para envio
 Para preparar seus arquivos para serem enviados ao GitHub, use:
 
